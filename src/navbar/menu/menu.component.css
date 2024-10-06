@@ -1,3 +1,15 @@
 .menu-item{
-    color: 'black'
+    cursor: pointer;
+
+}
+
+.nb-theme-default nb-menu .menu-item{
+    border: none !important;
+}
+
+.menu-holder{
+    box-shadow: 0 .5rem 1rem 0 rgba(44, 51, 73, .1) ;
+}
+.nb-theme-default nb-layout-header nav{
+    box-shadow: 0 .5rem 1rem 0 rgba(44, 51, 73, .1) !important;
 }

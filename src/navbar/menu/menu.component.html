@@ -1,5 +1,9 @@
-<nb-actions size="small" class="menu-item">
-    <nb-action >HEY</nb-action>
-    <nb-action >CLICK</nb-action>
-    <nb-action >ME</nb-action>
-  </nb-actions>
+  <nb-actions size="small" id="menu-holder">
+    
+    <nb-action *ngFor="let item of menuItems" class="menu-item">
+      <a href="#{{item.name}}">{{ item.name }}</a>
+    </nb-action>
+
+    
+   </nb-actions>
+
