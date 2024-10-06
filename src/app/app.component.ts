@@ -1,6 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from '../navbar/navbar.component';
+import { NavbarComponent } from "../components/navbar/navbar.component";
 import { NbThemeModule } from '@nebular/theme';
 import { LayoutComponent } from '../layout/layout.component';
 
