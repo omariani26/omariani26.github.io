@@ -1,13 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { NbThemeModule } from '@nebular/theme';
+import { LayoutComponent } from '../layout/layout.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NavbarComponent, LayoutComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'portfolio';
+  title = 'Owen';
+  projectTitle = "Owen Mariani's Portfolio";
 }
