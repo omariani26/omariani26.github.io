@@ -8,6 +8,24 @@
         </div>
     </div>
     </div>
+    <div class="details">
+    <ng-template #onStateContent>
+       <p>Ways I touch grass here</p>
+    
+  </ng-template>
+  
+  <ng-template #offStateContent>
+    <p>Professional Skills here</p>
+   
+  </ng-template>
+  
+  Personality Switch: <app-toggle [onContent]="onStateContent" [offContent]="offStateContent">
+
+  </app-toggle>
+        
+          
+       
+    </div>
     
 </section>
 

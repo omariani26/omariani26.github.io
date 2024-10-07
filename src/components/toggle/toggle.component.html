@@ -1,0 +1,12 @@
+
+<nb-toggle [checked]="isToggled" (checkedChange)="onToggleChange($event)"></nb-toggle>
+
+<div *ngIf= "isToggled; else elseBlock" >
+    <ng-container *ngTemplateOutlet="onContent"></ng-container>
+  </div>
+
+  <!-- This is the content to show when the toggle is OFF -->
+  <ng-template #elseBlock>
+    <ng-container *ngTemplateOutlet="offContent"></ng-container>
+
+    </ng-template>
