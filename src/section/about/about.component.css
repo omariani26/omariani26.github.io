@@ -14,8 +14,23 @@
     
 }
 h1,h2,h3,h4,h5,h6,p{
-    color: white;
+    color: #202c52;
+    line-height: 0;
   }
+
+h1{
+    font-size: 5rem !important;
+    
+}
+
+.title-bg{
+    margin-top: 5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
 
 .title{
     display: flex;
