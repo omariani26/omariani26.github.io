@@ -1,14 +1,18 @@
 section {
     width: 100vw;              /* 100% of the viewport width */
-    min-height: 20vh;          /* Minimum height of 100% of the viewport height */
-    padding: 20px;              /* Add some padding for content inside */
     box-sizing: border-box;     /* Include padding and border in the element's total width/height */
     display: flex;              /* Use flexbox for vertical and horizontal centering (if needed) */
     align-items: center;        /* Center content vertically */
     justify-content: center;    /* Center content horizontally */
-
+    font-family: Open Sans, sans-serif;
+    font-size: .8125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
 }
+
+
 
 html {
   scroll-behavior: smooth;
+  
 }

@@ -1,11 +1,13 @@
 <nb-layout>
   
     <nb-layout-header ><ng-content select="app-navbar"></ng-content> </nb-layout-header>
-    <nb-layout-column>
+    <nb-layout-column style="padding: 0;">
+     
       <app-about/>
       <app-skills/>
       <app-projects/>
       <app-experience/>
+    
     </nb-layout-column>
     <nb-layout-footer >{{ footer  }}</nb-layout-footer>
   </nb-layout>
